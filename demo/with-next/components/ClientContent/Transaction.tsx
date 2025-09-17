@@ -340,7 +340,7 @@ export const SendTransaction = () => {
     });
 
     await MiniKit.commandsAsync.pay({
-      to: '0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045',
+      to: '0x60dAEc6251D59DA056750fe1b8B6530D96228696',
       tokens: [
         {
           symbol: Tokens.WLD,
