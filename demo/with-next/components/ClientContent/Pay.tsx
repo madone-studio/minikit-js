@@ -133,7 +133,7 @@ export const Pay = () => {
           <button
             className="bg-black text-white rounded-lg p-4 w-full"
             onClick={() =>
-              onPayClick(0.1, '0x5d90e8Ac16dB245B0822A4790106b4F6Ce8692f6')
+              onPayClick(0.1, '0x60dAEc6251D59DA056750fe1b8B6530D96228696')
             }
           >
             Pay (USDC + WLD)
@@ -143,7 +143,7 @@ export const Pay = () => {
             onClick={() =>
               onPayClick(
                 0.1,
-                '0x5d90e8Ac16dB245B0822A4790106b4F6Ce8692f6',
+                '0x60dAEc6251D59DA056750fe1b8B6530D96228696',
                 Tokens.WLD,
               )
             }
@@ -155,7 +155,7 @@ export const Pay = () => {
             onClick={() =>
               onPayClick(
                 0.1,
-                '0x5d90e8Ac16dB245B0822A4790106b4F6Ce8692f6',
+                '0x60dAEc6251D59DA056750fe1b8B6530D96228696',
                 Tokens.USDC,
               )
             }
